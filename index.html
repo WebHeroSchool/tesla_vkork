@@ -1,51 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title> app.creation </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Inc</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="font.css">
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="logo">
-          <div class="logo__circle circle_1 logo__circle_color_dark-blue"></div>
-          <div class="logo__circle circle_2 logo__circle_color_blue"></div>
-          <div class="app"> app.creation</div>
-        </div>
-        <div class="hamburger-menu">
-          <input id="menu__toggle" type="checkbox" />
+        <div class="header__flex_box">
+          <div class="logo">
+          </div>
+          <div class="models">
+            <li> <a class="models__item models__item_active" href="#">Model S</a></li>
+            <li> <a class="models__item models__item_2" href="#">Model X</a> </li>
+            <li> <a class="models__item models__item_3" href="#">Model 3</a> </li>
+            <li> <a class="models__item models__item_4" href="#">Roadster</a> </li>
+            <li> <a class="models__item models__item_5" href="#">Energy</a> </li>
+          </div>
+          <nav class="menu">
+            <li><a class="menu__item" href="#">Магазин</a></li>
+            <li><a class="menu__item menu__item_2" href="#">Войти</a></li>
+          </nav>
           <label class="menu__btn" for="menu__toggle">
             <span></span>
           </label>
-          <ul class="menu__box">
-            <li><a class="menu__item" href="#">start</a></li>
-      			<li><a class="menu__item" href="#">services</a></li>
-      			<li><a class="menu__item" href="#">about</a></li>
-      			<li><a class="menu__item" href="#">blog</a></li>
-      			<li><a class="menu__item" href="#">contact us</a></li>
-          </ul>
         </div>
-        <nav class="menu">
-          <a class="menu__item" href="#">start</a>
-          <a class="menu__item menu_item_active" href="#">services</a>
-          <a class="menu__item" href="#">about</a>
-          <a class="menu__item" href="#">blog</a>
-          <a class="menu__item" href="#">contact us</a>
-        </nav>
       </header>
       <section class="main">
-        <h1 class="main__title">Building an App
-          <span class="main__title-text_highlight"> Without Design</span><span class="main__title-text_highlight"> Expertise</span>?
-        </h1>
-        <p class="main__text">I help tech startups design better digital<br>
-             products without hiring a full-time designer
-        </p>
-        <a class="main__button" href="#">Schedule free consultation</a>
+        <h1 class="main__title">Model S</h1>
+        <p class="main__text">Добро пожаловать в будущее</p>
+        <div class="main__img_bcg">
+        </div>
+          <div class="main__bottom" >
+            <div class="main__bottom_flex_box">
+              <div class="main__bottom_speed">2,7 <span class="main__bottom_speed_sec">сек</span><br><span class="main_bottom_grey_text">0-100 км/час</span></div>
+              <div class="main__bottom_distance">632 <span class="main__bottom_distance_km">км </span> <br><span class="main__bottom__distance_undertext">запас хода</div>
+              <div class="main__bottom_testdrive">тест драйв</div>
+              <a class="main__bottom_button" href="#">ЗАКАЗАТЬ</a>
+            </div>
+          </div>
+        <div class="main__arrow"> <a href="#section_2"><span class="main__arrow_scroll"></span></a>
+        </div>
       </section>
-      <div class="elipses"></div>
+      <section class="section_2">
+        <div class="section_2__flex_box">
+          <div class="section_2__flex_box_main">Model S</div>
+          <div class="section_2__flex_box_description">
+            <div class="section_2__flex_box_description_box">
+              <h2 class="section_2__flex_box_description_box_title">Будущее вождения</h2>
+              <p class="section_2__flex_box_description_box_text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным <br>17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира. </p>
+              <h3 class="section_2__flex_box_description_box_main_info section_2__flex_box_description_box_main_info_screen">17 <span class="section_2__flex_box_description_box_secondary_info">дюймов</span>
+              </h3>
+              <p class="section_2__flex_box_description_box_main_info_undertext">Большой дисплей</p>
+              <h3 class="section_2__flex_box_description_box_secondary_info section_2__flex_box_description_box_secondary_info_wifi">Беспроводное обновление ПО</h3>
+              <p class="section_2__flex_box_description_box_main_info_undertext">Повышенная функциональность</p>
+              <h3 class="section_2__flex_box_description_box_main_info section_2__flex_box_description_box_main_info_bag">894 <span class="section_2__flex_box_description_secondary_info">литра</span></h3>
+              <p class="section_2__flex_box_description_box_main_info_undertext">Объем грузового пространства</p>
+              <nav class="section_2__flex_box_description_box_nav">
+                <a class="section_2__flex_box_description_box_nav_button_info"href="#">УЗНАТЬ БОЛЬШЕ</a>
+                <a class="section_2__flex_box_description_box_nav_button_order" href="#">ЗАКАЗАТЬ</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_3">
+        <div class="section_3__flex_box">
+          <div class="section_3__flex_box_description">
+            <h2 class="section_3__flex_box_description_title">Самый безопасный автомобиль в мире</h2>
+            <p class="section_3__flex_box_description_text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+            <h3 class="section_3__flex_box_description_title">Оценка защиты:</h3>
+            <div class="section_3__flex_box_description_rating">
+              <h3 class="section_3__flex_box_description_rating_text">Спереди<br>Сбоку<br>Сбоку<span class="section_2__flex_box_description_rating_text_undertext">(стойка)</span><br>ВОДИТЕЛЬ<br>ПАССАжир</h3>
+              <h3 class="section_3__flex_box_description_rating_star">&#9733;&#9733;&#9733;&#9733;&#9733;<br>&#9733;&#9733;&#9733;&#9733;&#9733;<br>&#9733;&#9733;&#9733;&#9733;&#9733;<br>&#9733;&#9733;&#9733;&#9733;&#9733;<br>&#9733;&#9733;&#9733;&#9733;&#9733;</h3>
+            </div>
+            <div class="section_3__flex_box_description_shield">
+              <h2 class="section_3__flex_box_description_shield_text">5 звезд<br><span class="section_3__flex_box_description_shield_text_undertext">безопасности</span></h2>
+            </div>
+            <nav class="section_3__flex_box_description_nav">
+              <a class="section_3__flex_box_description_nav_button_info"href="#">УЗНАТЬ БОЛЬШЕ</a>
+              <a class="section_3__flex_box_description_nav_button_order" href="#">ЗАКАЗАТЬ</a>
+            </nav>
+            <div class="section_3__flex_box section_3__flex_box_frame">
+              <h2 class="section_3__flex_box_description">
+              </h2>
+            </div>
+          </div>
+          <div class="section_3__flex_box_background">
+            <div class="section_3__flex_box_background_logo"></div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
